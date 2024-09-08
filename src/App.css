@@ -1,0 +1,92 @@
+*{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+/* CSS Productinfo component */
+.productInfo {
+  width: 100%;
+}
+
+
+.productInfo .header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: rgb(158, 158, 10);
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+
+.productInfo .form{
+  width: 100%;
+  max-height: fit-content;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 24px;
+  padding: 10px;
+  border-style: groove;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.productInfo .form .input-group input,textarea, #inputGroupSelect01 {
+  max-width: calc(100% - 24px);
+  height: 50px;
+  border: none;
+  outline: none;
+  border-style: groove;
+  border-width: 1px;
+  padding: 10px;
+}
+
+
+
+.productInfo .footer button{
+  width: 70px;
+  height: 40px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.footer button:hover {
+  background-color: rgb(255, 77, 77) !important;
+  box-shadow: rgb(255, 77, 77) 0px 25px 50px -12px;
+}
+
+
+/* CSS Table component */
+.table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.table .header {
+  background-color: gray;
+  color: rgb(255, 196, 0);
+}
+
+.btn-col-7 button, .btn-col-7 button i{
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  margin: auto 10px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+.btn-col-7 button:hover {
+  background-color: brown !important;
+}
